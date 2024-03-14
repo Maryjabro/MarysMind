@@ -59,178 +59,261 @@ table{
   margin-right: auto;
   
 }
-
+    form {
+        background-color: lightskyblue;
+        color: black; /* Change text color to make it visible on black background */
+        padding: 20px; /* Add padding for better readability */
+    }
+        form, form * {
+            color: black;
+        }
 td, th { border: 1px solid #CCC; }
 table { border: 1px solid black; }
+
 </style>
 </head>
 <body>
-  <header>
-    <h1>Mary's Mind 101</h1>
-    <div id="selection">
-      <a href="#">Welcome</a>&ensp;|&ensp;<a href="#">About Me</a>&ensp;|&ensp;<a href="#">Blog Entries</a>
-    </div> 
-  </header>
-
-  <main role="main">
-        <section>
-      <h2>Welcome</h2>
-      <p>Welcome! What better name for a blog that dives deep into my mind?</p>
-    </section>
-
-    <section>
-      <h2>About Me ~ Mary Jabro</h2>
-      <img src="me Small.png" alt="Photo of Mary Jabro">
-      <br>
-      <p>I am...
-        <ul>
-          <li>an advocate for health and wellness</li>
-          <li>a computer geek!</li>
-          <li>very very curious</li>
-          <li>an iced coffee addict</li>
-        </ul>
-      </p>
-
-      <h3>Education</h3>
-      <picture>
-        <source media="(min-width: 480px)" srcset="wayne.webp 1200w, wayne.webp 800w" sizes="80vw">
-        <img src="wayne.webp" alt="Photo of Nintendo Graphic ">
-      </picture>      <p>I am currently attending <em>Wayne State University</em> as a second-year Computer Science Major. </p>
-    </section>
-
-    <section>
-      <h3>Hobbies</h3>
-      <h4>Painting</h4>
-      <p>I love to do <b>art!</b> These are just a few of my paintings</p>
-        <img src="flamegirl Small.png" alt="Photo of Flame girl Art">
-   
-        <img src="pokemon Small.png" alt="Photo of Pokemon Art">
-      
-      <br>
-        <img src="rick Small.png" alt="Photo of Rick and Morty Art">
-        <img src="spiderman Small.png" alt="Photo of SpiderMan Art">
-      <br>
-
-     
-
-      <h4>Exercise</h4>
-      <p><b>Working out</b> one of my <em>biggest</em> hobbies.</p>
-      <img src="exercise Small.png" alt="Photo of exercise">
-
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Table</title>
-  
-
-      <style>
-          td, th {border: 1px solid #CCC;}
-          table{border: 1px solid black;}
-      </style>
-  </head>
-  <body>
-      
-    <table>
-        <caption>Time to complete Workouts</caption>
-        <span>
-          <tr>
-            <th rowspan="2"></th>
-            <th colspan="2">Split</th>
-            <th rowspan="2">Total Time (min)</th>
-          </tr>
-          <tr>
-            <th>Legs</th>
-            <th>Arms</th>
-          </tr>
-        </span>
-        <span>
-          <tr>
-            <th scope="row">Monday</th>
-            <td>60 min </td>
-            <td>0 min</td>
-            <td>60 min</td>
-          </tr>
-          <tr>
-            <th scope="row">Wednesday</th>
-            <td>0 min</td>
-            <td>60 min</td>
-            <td>60 min</td>
-          </tr>
-          <tr>
-            <th scope="row">Friday</th>
-            <td>45 min</td>
-            <td>30 min</td>
-            <td>75 min</td>
-          </tr>
-        </span>
-      </table>
-      
-
-      <br>
-      <h4>Games</h4>
-      <p><b>Playing video games</b> is fun too!</p>
-      <picture>
-        <source media="(min-width: 480px)" srcset="nintendo.avif 1200w, nintendo.avif 800w" sizes="80vw">
-        <img src="nintendo.avif" alt="Photo of Nintendo Graphic ">
-      </picture>
-      <picture>
-        <source media="(min-width: 480px)" srcset="xbox.jpeg 1200w, xbox.jpeg 800w" sizes="80vw">
-        <img src="xbox.jpeg" alt="Photo of Xbox Graphic ">
-      </picture>
-      <br>
-    </section>
-
-    <h2>Blog Entries</h2>
-
-    <article>
-      <h3><u>Busy Birthday</u></h3>
-      <p>Today is my <b>birthday</b>, however, its been pretty busy with school. Unfortunately for me, I had to take a very hard midterm today which took up most of my mind. The midterm was in my basic engineering course on statistics. Additionally, I was up until 2 am last night studying for it as I had an exam yesterday that took up a lot of my study time. This morning I woke up at <em>7 am</em> for my 8:30 am lab as well! Running on <em>5 hours of sleep</em> and taking midterms on your birthday is pretty rough. However, now that my exams are over, I am glad I can relax and enjoy my birthday.</p>
-      <p>I turned <b>20</b> today! Which is crazy because I still feel like a teenager. It feels a little bitter sweet turning 20, as I always felt a little negative about growing up. However, I realize I am a year closer to reaching my goals!</p>
-      <p>I have planned to go to a <em>sushi</em> restaurant for my birthday, my <em>favorite</em> food! Also, I had given up dairy and meat for the first week of lent so sushi may be the only option. Regardless, I am excited.</p>
-      <div id="sushi order" class="restaurant orders">
-        <h4>My Sushi Order:</h4>
-        <ul>
-          <li>Cucumber Salad</li>
-          <li>Miso Soup</li>
-          <li>Rainbow Roll</li>
-          <li>Spicy Salmon Roll</li>
-        </ul>
-
-        <h4>Wishes</h4>
-
-
-        
-        <p>Before I blew out my candle on my dairy free icecream and cupcake, I made sure to wish for health and happiness for myself and those around me for the year.</p>
-        <div id="02/13/24 post" class="blogEntry">
-          <p>posted by Mary Jabro, <time datetime="2024-02-13T17:30:00">5:30 pm, February 13, 2024</time> </p>
+    <header>
+        <h1>Mary's Mind 101</h1>
+        <div id="selection">
+            <a href="#">Welcome</a>&ensp;|&ensp;<a href="#">About Me</a>&ensp;|&ensp;<a href="#">Blog Entries</a>
         </div>
-      </div>
-    </article>
+    </header>
 
-    <article>
-      <h3><u>Lent</u></h3>
-      <p>In my religion, we celebrate <em>lent</em> to which we fast for 40 days from whatever we may choose</p>
-      <p>I've been brainstorming a list of things I am going to give up and add into my lent this year.</p>
-      <h4>My Lent:</h4>
-      <ul id="lent">
-        <li><b>No</b>  meat and dairy during the first week, last week, and on fridays</li>
-        <li><b>No</b>  music, besides study music</li>
-        <li><b>No</b> junk food</li>
-        <li>Give up <em>1</em> social media</li>
-        <li><em>Add</em> more prayer</li>
-      </ul>
-      <p>I chose these things because I know that it will take a lot of discipline to refrain from them. Without struggle, are we really fasting?</p>
-      <p>A friend once told me&hellip;<br><br> <q>Lent is a Time for<br> Renewing Faith<br> Hope<br> and Love.</q></p>
-      
-      <div id="02/10/24 post" class="blogEntry">
-        <p>posted by Mary Jabro, <time datetime="2024-02-10T19:24:00">7:24 pm, February 10, 2024</time> </p>
-      </div>
-    </article>
-  </main>
+    <main role="main">
+        <section>
+            <h2>Welcome</h2>
+            <p>Welcome! What better name for a blog that dives deep into my mind?</p>
+        </section>
 
-  <footer role= "CreatorInfo">
-    <address>
-      Created by Mary Jabro, All Imaged are Copyrighted&copy;,  <a href="https://www.linkedin.com/in/maryjabro/">linkedin.com/in/maryjabro/</a>
-    </address>
-  </footer>
+        <section>
+            <h2>About Me ~ Mary Jabro</h2>
+            <img src="me Small.png" alt="Photo of Mary Jabro">
+            <br>
+            <p>
+                I am...
+                <ul>
+                    <li>an advocate for health and wellness</li>
+                    <li>a computer geek!</li>
+                    <li>very very curious</li>
+                    <li>an iced coffee addict</li>
+                </ul>
+            </p>
+
+            <h3>Education</h3>
+            <picture>
+                <source media="(min-width: 480px)" srcset="wayne.webp 1200w, wayne.webp 800w" sizes="80vw">
+                <img src="wayne.webp" alt="Photo of Nintendo Graphic ">
+            </picture>      <p>I am currently attending <em>Wayne State University</em> as a second-year Computer Science Major. </p>
+        </section>
+
+        <section>
+            <h3>Hobbies</h3>
+            <h4>Painting</h4>
+            <p>I love to do <b>art!</b> These are just a few of my paintings</p>
+            <img src="flamegirl Small.png" alt="Photo of Flame girl Art">
+
+            <img src="pokemon Small.png" alt="Photo of Pokemon Art">
+
+            <br>
+            <img src="rick Small.png" alt="Photo of Rick and Morty Art">
+            <img src="spiderman Small.png" alt="Photo of SpiderMan Art">
+            <br>
+
+
+
+            <h4>Exercise</h4>
+            <p><b>Working out</b> one of my <em>biggest</em> hobbies.</p>
+            <img src="exercise Small.png" alt="Photo of exercise">
+
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Table</title>
+
+
+            <style>
+                td, th {
+                    border: 1px solid #CCC;
+                }
+
+                table {
+                    border: 1px solid black;
+                }
+            </style>
+            </head>
+            <body>
+
+                <table>
+                    <caption>Time to complete Workouts</caption>
+                    <span>
+                    <tr>
+                        <th rowspan="2"></th>
+                        <th colspan="2">Split</th>
+                        <th rowspan="2">Total Time (min)</th>
+                    </tr>
+                    <tr>
+                        <th>Legs</th>
+                        <th>Arms</th>
+                    </tr>
+                    </span>
+                    <span>
+                    <tr>
+                        <th scope="row">Monday</th>
+                        <td>60 min </td>
+                        <td>0 min</td>
+                        <td>60 min</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wednesday</th>
+                        <td>0 min</td>
+                        <td>60 min</td>
+                        <td>60 min</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Friday</th>
+                        <td>45 min</td>
+                        <td>30 min</td>
+                        <td>75 min</td>
+                    </tr>
+                    </span>
+                </table>
+
+
+                <br>
+                <h4>Games</h4>
+                <p><b>Playing video games</b> is fun too!</p>
+                <picture>
+                    <source media="(min-width: 480px)" srcset="nintendo.avif 1200w, nintendo.avif 800w" sizes="80vw">
+                    <img src="nintendo.avif" alt="Photo of Nintendo Graphic ">
+                </picture>
+                <picture>
+                    <source media="(min-width: 480px)" srcset="xbox.jpeg 1200w, xbox.jpeg 800w" sizes="80vw">
+                    <img src="xbox.jpeg" alt="Photo of Xbox Graphic ">
+                </picture>
+                <br>
+        </section>
+
+        <h2>Blog Entries</h2>
+
+        <article>
+            <h3><u>Busy Birthday</u></h3>
+            <p>Today is my <b>birthday</b>, however, its been pretty busy with school. Unfortunately for me, I had to take a very hard midterm today which took up most of my mind. The midterm was in my basic engineering course on statistics. Additionally, I was up until 2 am last night studying for it as I had an exam yesterday that took up a lot of my study time. This morning I woke up at <em>7 am</em> for my 8:30 am lab as well! Running on <em>5 hours of sleep</em> and taking midterms on your birthday is pretty rough. However, now that my exams are over, I am glad I can relax and enjoy my birthday.</p>
+            <p>I turned <b>20</b> today! Which is crazy because I still feel like a teenager. It feels a little bitter sweet turning 20, as I always felt a little negative about growing up. However, I realize I am a year closer to reaching my goals!</p>
+            <p>I have planned to go to a <em>sushi</em> restaurant for my birthday, my <em>favorite</em> food! Also, I had given up dairy and meat for the first week of lent so sushi may be the only option. Regardless, I am excited.</p>
+            <div id="sushi order" class="restaurant orders">
+                <h4>My Sushi Order:</h4>
+                <ul>
+                    <li>Cucumber Salad</li>
+                    <li>Miso Soup</li>
+                    <li>Rainbow Roll</li>
+                    <li>Spicy Salmon Roll</li>
+                </ul>
+
+                <h4>Wishes</h4>
+
+
+
+                <p>Before I blew out my candle on my dairy free icecream and cupcake, I made sure to wish for health and happiness for myself and those around me for the year.</p>
+                <div id="02/13/24 post" class="blogEntry">
+                    <p>Posted by Mary Jabro, <time datetime="2024-02-13T17:30:00">5:30 pm, February 13, 2024</time> </p>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <h3><u>Lent</u></h3>
+            <p>In my religion, we celebrate <em>lent</em> to which we fast for 40 days from whatever we may choose</p>
+            <p>I've been brainstorming a list of things I am going to give up and add into my lent this year.</p>
+            <h4>My Lent:</h4>
+            <ul id="lent">
+                <li><b>No</b>  meat and dairy during the first week, last week, and on fridays</li>
+                <li><b>No</b>  music, besides study music</li>
+                <li><b>No</b> junk food</li>
+                <li>Give up <em>1</em> social media</li>
+                <li><em>Add</em> more prayer</li>
+            </ul>
+            <p>I chose these things because I know that it will take a lot of discipline to refrain from them. Without struggle, are we really fasting?</p>
+            <p>A friend once told me&hellip;<br><br> <q>Lent is a Time for<br> Renewing Faith<br> Hope<br> and Love.</q></p>
+
+            <div id="02/10/24 post" class="blogEntry">
+                <p>Posted by Mary Jabro, <time datetime="2024-02-10T19:24:00">7:24 pm, February 10, 2024</time> </p>
+            </div>
+        </article>
+
+        <article>
+            <h3><u>My Favorite Movie</u></h3>
+            <p>My favorite movie is called <em>Spirited Away </em> and it is by Studio Ghibli.</p>
+
+            <p>
+                I like this movie because it truly conveys a critique of the excesses of consumerism
+                and the superficiality of material wealth, contrasting it with the simple virtues of hard work and compassion.
+            </p>
+            <p>Below I have a video of the trailer for reference: </p>
+            <video src="spiritedaway.mp4" width="320" height="262" controls>
+                Sorry, your browser doesn't support HTML5 video.
+            </video>
+            <div id="02/10/24 post" class="blogEntry">
+                <p>Posted by Mary Jabro, <time datetime="2024-03-033T19:24:00">8:24 pm, March 2, 2024</time> </p>
+            </div>
+        </article>
+
+    </main>
+    <form class="emailList" method="POST">
+        <fieldset>
+            <legend><b>Join our email list</b></legend>
+            <p>
+                Get updates about my future blog posts right after they're published!
+            </p>
+            <p>
+                <label for="firstlast"><b>Name:</b></label>
+                <input type="text" name="fullname" id="firstlast">
+            </p>
+            <p>
+                <label for="email"><b>Email:</b></label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p>
+                <label for="phone"><b>Phone Number:</b></label>
+                <input type="text" name="phone" id="phone">
+            </p>
+            <p>
+                <label>
+                    <b>Send a photo to be used as your online icon for our messaging list <em>(optional)</em></b><br>
+                    <input type="file" name="photo">
+                </label>
+            </p>
+            <fieldset>
+                <legend><b>Age</b></legend>
+                <select name="Age" size="1">
+                    <option>17 and younger</option>
+                    <option>18-25</option>
+                    <option>26-34</option>
+                    <option>35+</option>
+                    <option>Prefer not to say</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend><b>Preferences</b></legend>
+                <p><b>Check all that apply:</b></p>
+                <p>
+                    <input type="checkbox" name="Agreement" value="voice_mail">I opt in to receiving voice mails for updates on Mary's Mind Blog Posts
+                </p>
+                <p>
+                    <input type="checkbox" name="Agreement" value="promotional">I opt in to receiving promotional marketing messages from partnered companies
+                </p>
+                <p>
+                    <input type="radio" name="Agreement" value="recurring_messages">By signing up, you agree to receive recurring automated promotional and personalized messages from Mary's Mind 101 at the call number and email used when signing up.
+                </p>
+            </fieldset>
+            <p><input type="submit" value="Submit"></p>
+        </fieldset>
+    </form>
+
+    <footer role="CreatorInfo">
+        <address>
+            Created by Mary Jabro, All Imaged are Copyrighted&copy;,  <a href="https://www.linkedin.com/in/maryjabro/">linkedin.com/in/maryjabro/</a>
+        </address>
+    </footer>
 </body>
 </html>
+
