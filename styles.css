@@ -1,0 +1,72 @@
+body {
+    background-color: #c14fff; 
+    margin: 0 10%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  h1 {
+    font-size: 3em; 
+    color: #3a062d;
+  }
+  h2 {
+    font-size: 2.5em; 
+    color: #5c0a48;
+  }
+  h3 {
+    font-size: 2em;
+    color: #7f0f63;
+  }
+  h4 {
+    font-size: 1.5em;
+    color: #802e6c;
+  }
+  p {
+    font-size: 1em; 
+    color: #ffffff;
+  }
+  footer {
+    font-size: 0.75em;
+  }
+  section {
+    margin-bottom: 30px;
+  }
+  .selection {
+    font-size: 2em;
+    color: #000000;
+  }
+  .blogEntry {
+    color: #000000;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  ul {
+    text-align: left;
+    margin-left: 20%; 
+  }
+  li {
+    font-size: 1.2em; 
+  }
+  table{
+      margin-left: auto;
+    margin-right: auto;
+    td, th {
+        border: 1px solid #CCC;
+    }
+
+
+        border: 1px solid black;
+
+    
+  }
+      form {
+          background-color: lightskyblue;
+          color: black; /* Change text color to make it visible on black background */
+          padding: 20px; /* Add padding for better readability */
+      }
+          form, form * {
+              color: black;
+          }
+  td, th { border: 1px solid #CCC; }
+  table { border: 1px solid black; }
