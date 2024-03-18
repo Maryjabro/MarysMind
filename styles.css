@@ -1,58 +1,161 @@
+
+          
+
 .index {
     background-color: #e862cb; 
 
     background-image: url(background.jpeg);
-    h1 {font-size: 5em; 
-  background-color: #CA4246;
+    h1 {font-size: 5em; }
+   .title h1{
+    
+    background-color: #CA4246;
+    
+     background-image: linear-gradient(
+          45deg,
+          #ff6f00 16.666%, 
+          #ff6f00 16.666%, 
+          #ff9779 33.333%, 
+          #ffc291 33.333%, 
+          #ff8e37 50%, 
+          #ffa25b 50%, 
+          #ffa662 66.666%, 
+          #ff8a2f 66.666%, 
+          #ff6f00 83.333%, 
+          #a94b03 83.333%);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
   
-   background-image: linear-gradient(
-        45deg,
-        #ff6f00 16.666%, 
-        #ff6f00 16.666%, 
-        #ff9779 33.333%, 
-        #ffc291 33.333%, 
-        #ff8e37 50%, 
-        #ffa25b 50%, 
-        #ffa662 66.666%, 
-        #ff8a2f 66.666%, 
-        #ff6f00 83.333%, 
-        #a94b03 83.333%);
-  
-  /* Set the background size and repeat properties. */
-  background-size: 100%;
-  background-repeat: repeat;
-
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-        font-family: "Marko One", Georgia, serif;
-        
-}
-
-    .welcome{}
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+          font-family: "Marko One", Georgia, serif;}
+    
 }
 .blogentries{
+    background-color: #ffd8f6; 
     h1{font-size: 5em;}
     body{    background-color: #e862cb; 
     }
-}
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial;
+        padding: 20px;
+        background: #f1f1f1;
+      }
+      
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        font-size: 40px;
+        text-align: center;
+        background: white;
+
+        h2{
+    
+            background-color: #CA4246;
+            
+             background-image: linear-gradient(
+                  45deg,
+                  #ff6f00 16.666%, 
+                  #ff6f00 16.666%, 
+                  #ff9779 33.333%, 
+                  #ffc291 33.333%, 
+                  #ff8e37 50%, 
+                  #ffa25b 50%, 
+                  #ffa662 66.666%, 
+                  #ff8a2f 66.666%, 
+                  #ff6f00 83.333%, 
+                  #a94b03 83.333%);
+            
+            /* Set the background size and repeat properties. */
+            background-size: 100%;
+            background-repeat: repeat;
+          
+            /* Use the text as a mask for the background. */
+            /* This will show the gradient as a text color rather than element bg. */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+                  font-family: "Marko One", Georgia, serif;}
+            
+        }
+      }
+      
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+      
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+      }
+      
+      /* Fake image */
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+      
+      /* Add a card effect for articles */
+      .card {
+        background-color: rgb(255, 163, 237);
+        padding: 20px;
+        margin-top: 20px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+      
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
 .about{
-    h1{font-size: 5em;}
+    h1{
+    font-size: 5em;
+
+    }
     background-color: #340329; 
 p{
     color: #fe13c4;
     font-size: 2em;   
 
-}
-        color: #fe13c4;
-
-    
+}   
 
 }
 .email{
     background-color: #000000; 
 
+}
+.about{
+  background-color: #ff9cf5; 
+ 
 }
 .selection {font-size: 2em; 
     font-family: "Marko One", Georgia, serif;}
