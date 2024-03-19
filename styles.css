@@ -41,7 +41,7 @@
       }
       
       body {
-        font-family: Arial;
+        font-family: "Marko One", Georgia, serif;
         padding: 20px;
         background: #f1f1f1;
       }
@@ -70,56 +70,54 @@
                   #ff6f00 83.333%, 
                   #a94b03 83.333%);
             
-            /* Set the background size and repeat properties. */
             background-size: 100%;
             background-repeat: repeat;
-          
-            /* Use the text as a mask for the background. */
-            /* This will show the gradient as a text color rather than element bg. */
+    
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent; 
                   font-family: "Marko One", Georgia, serif;}
             
         }
       }
-      
-      /* Create two unequal columns that floats next to each other */
-      /* Left column */
+
       .leftcolumn {
         float: left;
         width: 75%;
       }
-      
-      /* Right column */
+
       .rightcolumn {
         float: left;
         width: 25%;
         padding-left: 20px;
       }
-      
-      /* Fake image */
+
       .fakeimg {
-        background-color: #aaa;
+        background-color: #ffccee;
         width: 100%;
         padding: 20px;
       }
-      
-      /* Add a card effect for articles */
       .card {
         background-color: rgb(255, 163, 237);
-        padding: 20px;
-        margin-top: 20px;
+        padding: 30px;
+        margin-top: 50px;
+
+        
       }
+      .placeholder img {
+        max-width: 100%;
+        height: auto;
+      }
+
+  
       
-      /* Clear floats after the columns */
+  
       .row:after {
         content: "";
         display: table;
         clear: both;
       }
       
-      /* Footer */
-      .footer {
+      .CreatorInfo {
         padding: 20px;
         text-align: center;
         background: #ddd;
@@ -147,12 +145,16 @@ p{
 
 }
 .email{
-    background-color: #000000; 
+    background-color: #ffcbf8; 
 
 }
 .about{
   background-color: #ff9cf5; 
  
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 .selection {font-size: 2em; 
     font-family: "Marko One", Georgia, serif;}
@@ -164,26 +166,31 @@ body {
   h1 {
     font-size: 3em; 
     color: #fe13c4;
-  }
+    font-family: "Marko One", Georgia, serif;}
+
+  
   h2 {
     font-size: 2.5em; 
     color: #5c0a48;
-  }
+    font-family: "Marko One", Georgia, serif;}
+
+  
   h3 {
     font-size: 2em;
     color: #7f0f63;
-  }
+    font-family: "Marko One", Georgia, serif;}
+
   h4 {
     font-size: 1.5em;
     color: #802e6c;
-  }
+    font-family: "Marko One", Georgia, serif;}
+
   p {
     font-size: 1em; 
     color: #ffffff;
-  }
-  footer {
-    font-size: 0.75em;
-  }
+    font-family: "Marko One", Georgia, serif;}
+
+  
   section {
     margin-bottom: 30px;
   }
@@ -195,17 +202,16 @@ body {
     color: #000000;
   }
 
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+ 
   ul {
     text-align: left;
     margin-left: 20%; 
-  }
+    font-family: "Marko One", Georgia, serif;}
+
   li {
     font-size: 1.2em; 
-  }
+    font-family: "Marko One", Georgia, serif;}
+
   table{
       margin-left: auto;
     margin-right: auto;
@@ -220,9 +226,11 @@ body {
   }
       form {
           background-color: lightskyblue;
-          color: black; /* Change text color to make it visible on black background */
-          padding: 20px; /* Add padding for better readability */
-      }
+          color: black; 
+          padding: 20px; 
+          font-family: "Marko One", Georgia, serif;}
+
+      
           form, form * {
               color: black;
           }
