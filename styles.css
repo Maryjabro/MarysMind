@@ -1,0 +1,565 @@
+
+.index {
+
+    background-color: #e862cb; 
+
+    background-image: url(background.jpeg);
+
+    
+    h1 {font-size: 5em; 
+    }
+   .title h1{
+    
+    background-color: #CA4246;
+    
+     background-image: linear-gradient(
+          45deg,
+          #ff6f00 16.666%, 
+          #ff6f00 16.666%, 
+          #ff9779 33.333%, 
+          #ffc291 33.333%, 
+          #ff8e37 50%, 
+          #ffa25b 50%, 
+          #ffa662 66.666%, 
+          #ff8a2f 66.666%, 
+          #ff6f00 83.333%, 
+          #a94b03 83.333%);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+          font-family: "Marko One", Georgia, serif;
+
+        }
+    
+}
+a {
+  color: #fe13c4;
+  text-decoration:none
+  border-top: 1px solid;
+
+}
+
+a:visited {
+  color: #937393; /* muted purple for visited links */
+}
+a:hover,
+a:focus,
+a:active {
+  color: #c700f2; 
+  background-color: #fff; 
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background-color: rgba(255,255,255,.5); background-image: url(brainsymbol\ Small.jpeg) ;  background-repeat: repeat-x;
+  background-size: 94px;
+  margin-top: 2.5em;
+
+  }
+
+        /* Header/Blog Title */
+        .header {
+          padding: 30px;
+          font-size: 40px;
+          text-align: center;
+          background: white;
+  
+          h2{
+      
+              background-color: #CA4246;
+              
+               background-image: linear-gradient(
+                    45deg,
+                    #ff6f00 16.666%, 
+                    #ff6f00 16.666%, 
+                    #ff9779 33.333%, 
+                    #ffc291 33.333%, 
+                    #ff8e37 50%, 
+                    #ffa25b 50%, 
+                    #ffa662 66.666%, 
+                    #ff8a2f 66.666%, 
+                    #ff6f00 83.333%, 
+                    #a94b03 83.333%);
+              
+              background-size: 100%;
+              background-repeat: repeat;
+      
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent; 
+                    font-family: "Marko One", Georgia, serif;}
+              
+          }
+
+.blogentries{
+    background-color: #ffd8f6; 
+    background-image: url(scrunchie.webp);
+    background-position: center top;
+    h1{font-size: 5em;}
+    body{    background-color: #e862cb; 
+    }
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: "Marko One", Georgia, serif;
+        padding: 20px;
+        background: #f1f1f1;
+      }
+      
+
+      }
+
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+      }
+
+      .fakeimg {
+        background-color: #ffccee;
+        width: 100%;
+        padding: 20px;
+      }
+      .card {
+        background-color: rgb(255, 163, 237);
+        padding: 30px;
+        margin-top: 50px;
+      }
+        
+      
+      .placeholder img {
+        max-width: 100%;
+        height: auto;
+      }
+
+  
+      
+  
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      .CreatorInfo {
+        padding: 20px;
+        text-align: center;
+        background: #485154;
+        margin-top: 20px;
+      }
+      
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+  
+
+  .largerP{
+    font-size: 3.5em;   
+
+  }
+  
+
+    h1{
+    font-size: 5em;
+
+    }
+    background-color: #340329; 
+    background-image: url(scrunchie.webp);
+    background-repeat: repeat-y;
+    background-position: right top;
+
+p{
+    color: #fe13c4;
+    font-size: 2em;   
+
+}   
+
+
+.email{
+    background-color: #ffcbf8; 
+
+}
+.about{
+  
+  background-color: #ff9cf5; 
+  img.wrap {
+    float: left;
+    width: 300px; 
+    height: 300px; 
+    -webkit-shape-outside: url(pacman.png);
+    shape-outside: url(pacman.png);
+    -webkit-shape-margin: 1em; 
+    shape-margin: 1em;
+  }
+    ul {
+      text-align:left
+
+    }
+    p{color: #fe13c4;}
+
+
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.selection {font-size: 2em; 
+    font-family: "Marko One", Georgia, serif;}
+body {
+    margin: 0 10%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  h1 {
+    font-size: 3em; 
+    color: #fe13c4;
+    font-family: "Marko One", Georgia, serif;
+
+  }
+
+  
+  h2 {
+    font-size: 2.5em; 
+    color: #5c0a48;
+    font-family: "Marko One", Georgia, serif;}
+
+  
+  h3 {
+    font-size: 2em;
+    color: #7f0f63;
+    font-family: "Marko One", Georgia, serif;}
+
+  h4 {
+    font-size: 1.5em;
+    color: #802e6c;
+    font-family: "Marko One", Georgia, serif;}
+
+  p {
+    font-size: 1em; 
+    color: #ffffff;
+    font-family: "Marko One", Georgia, serif;}
+
+  
+  section {
+    margin-bottom: 30px;
+  }
+  .selection {
+    font-size: 2em;
+    color: #000000;
+  }
+  .blogEntry {
+    color: #000000;
+  }
+
+
+
+  table{
+      margin-left: auto;
+    margin-right: auto;
+    td, th {
+        border: 1px solid #CCC;
+    }
+
+
+        border: 1px solid black;
+
+    
+  }
+      form {
+          background-color: rgb(123, 73, 119);
+          color: black; 
+          padding: 20px; 
+          font-family: "Marko One", Georgia, serif;}
+
+      
+          form, form * {
+              color: black;
+          }
+  td, th { border: 1px solid #CCC; }
+  table { border: 1px solid black; }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex; 
+    justify-content: center; 
+  }
+  
+  nav ul li {
+    margin: 0.5em;
+  }
+  
+  nav ul li a {
+    display: block;
+    border: 1px solid;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #fe13c4;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #c700f2;
+  }
+  .todo-list {
+    border: 3px solid #ff26ba;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of viewport */
+}
+
+.task {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    width: 300px;
+    text-align: center;
+    margin-top: auto;
+}
+@media screen and (max-width: 600px) {
+  nav ul li {
+    flex: none;
+    width: 100%; /* Set the width of each list item to 100% */
+    text-align: center; /* Center-align the text */
+  }
+  nav ul {
+    justify-content: center;
+    padding-left: 0; /* Remove left padding */
+  }
+  
+  /* Adjust line height and padding of main content */
+  article {
+    line-height: 1.6em;
+    padding: 1em; 
+    border: double 4px #EADDC4;
+    border-radius: 25px;
+    margin: 2.5%;
+  }
+  
+  /* Adjust right column width */
+  .rightcolumn {
+    width: 50%; /* Adjust width for medium screens */
+    padding-left: 20px; /* Add left padding */
+    padding-right: 20px; /* Add right padding */
+  }
+  
+  /* Adjust card styles */
+  .card {
+    width: 100%; /* Make cards full width */
+    padding: 20px; /* Add padding to cards */
+    margin-bottom: 20px; /* Add some spacing between cards */
+    font-size: 1em; /* Reset font size for cards */
+
+  }
+
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center-align the list items */
+}
+
+nav ul li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 10px; /* Add some space between list items */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+  
+  
+  /* Adjust line height and padding of main content */
+  article {
+    line-height: 1.6em;
+    padding: 1em; 
+    border: double 4px #EADDC4;
+    border-radius: 25px;
+    margin: 2.5%;
+  }
+  
+  /* Adjust font sizes within cards */
+  .card {
+    font-size: 0.9em; /* Adjust font size for cards */
+  }
+  
+  body {
+    margin: 0 5%;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 2.5em;
+  }
+
+  h4 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
+/* Media queries for large screens */
+@media screen and (min-width: 1025px) {
+
+  .rightcolumn {
+    width: calc(25% - 20px); /* Adjust width for larger screens considering column gap */
+    padding-left: 0;
+    padding-right: 20px; /* Add right padding */
+  }
+
+  /* Adjust line height and padding of main content */
+  article {
+    line-height: 1.6em;
+    padding: 1em; 
+    border: double 4px #EADDC4;
+    border-radius: 25px;
+    margin: 2.5%;
+  }
+
+  /* Adjust card styles */
+  .card {
+    width: 100%; /* Make cards full width */
+    padding: 20px; /* Add padding to cards */
+    margin-bottom: 20px; /* Add some spacing between cards */
+    font-size: 0.9em; /* Reduce font size for cards */
+  }
+
+  .title{
+    font-size: 2em;
+
+  }
+  body {
+    margin: 0 5%;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 3.5em;
+  }
+
+  h3 {
+    font-size: 3em;
+  }
+
+  h4 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+}
+.recipe {
+  display: flex; /* Use flexbox to align items */
+  flex-direction: column; /* Stack items vertically */
+}
+
+.recipe .placeholder {
+  margin-bottom: 20px; /* Add margin to create space between the image and the text */
+}
+
+.recipe h4,
+.recipe ul,
+.recipe ol {
+  margin-top: 50px;
+  margin-left: 20px; /* Add left margin to the lists and headings */
+}
+
+
+.recipe h3 {
+  margin-top: 120px;
+  color: #0d2f1c;
+
+}
+
+
+.recipe p {
+  font-size: 1em;
+  color: #000000;
+}
+
+.recipe ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
