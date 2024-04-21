@@ -563,3 +563,35 @@ nav ul li:last-child {
   width: 100%;
   height: 100%;
 }
+
+.selection nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.selection nav ul li {
+    float: left;
+}
+
+.selection nav ul li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.selection nav ul::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 768px) {
+    .selection nav ul li a {
+        padding: 10px;
+    }
+}
