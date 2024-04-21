@@ -564,34 +564,34 @@ nav ul li:last-child {
   height: 100%;
 }
 
-.selection nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
 
-.selection nav ul li {
-    float: left;
-}
-
-.selection nav ul li a {
-    display: block;
-    color: #000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
-}
-
+/* Clear floats after the list */
 .selection nav ul::after {
     content: "";
     clear: both;
     display: table;
 }
 
+
+.selection nav ul::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 @media screen and (max-width: 768px) {
-    .selection nav ul li a {
-        padding: 10px;
-    }
+  .selection nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .selection nav ul li {
+      float: none;
+      margin-bottom: 10px;
+  }
+
+  .selection nav ul li a {
+      padding: 10px;
+  }
 }
